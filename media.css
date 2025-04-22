@@ -1,0 +1,554 @@
+@media(max-width:1330px){
+    .information__container{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media(max-width:1270px){
+    .main__content{
+        padding-top: 150px;
+    }
+    .header__title{
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+}
+@media(max-width:1020px){
+    .inner__header--items {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(to right, #00c6ff, #0072ff);
+        padding: 40px;
+        z-index: 999;
+    }
+    .inner__header--items.active {
+        display: flex;
+        transform: translateY(0);
+    }
+    .burger{
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+    .link{
+        font-size: 48px;
+    }
+    .burger__container{
+        position: absolute;
+        right: 15px;
+        top: 20px;
+    }
+    .inner__header--container{
+        position: relative;
+    }
+    .place__title{
+        font-size: 20px;
+    }
+    .beach__title{
+        font-size: 40px;
+    }
+    .beach{
+        font-size: 40px;
+    }
+    .inner__button{
+        padding-bottom: 30px;
+    }
+    .inner__social{
+        gap: 22px;
+    }
+}
+@media(max-width:1000px){
+    .information__container{
+       display:grid;
+       grid-template-columns:repeat(1,1fr);
+       gap:20px;
+    }
+    .information__text--container{
+        padding-top: 30px;
+    }
+    .inner__image--container{
+        height: 100%;
+    }
+    .camille{
+        max-height:800px;
+    }
+    .unsplashe{
+        max-height:800px;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .paragraph{
+        font-size: 25px;
+    }
+    /* .explore__btn{
+        font-size: 20px;
+        padding: 20px 30px;
+    } */
+    .inner__explore{
+        display: flex;
+        justify-content: center;
+    }
+    .inner__image--container{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:980px){
+    .beautiful__image--content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .beach__main__title{
+        font-size: 22px;
+    }
+    .beach__subtitle{
+        font-size: 14px;
+    }
+    .inner__content{
+        padding: 12px;
+    }
+    .beach__baron--content{
+        padding: 12px;
+    }
+    .beach__trisik--content{
+        padding: 12px;
+    }
+   
+}
+@media(max-width:950px){
+    .inner__image{
+        display:flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right:20px;
+        gap:20px;
+    }
+    .beach__pakis{
+        font-size:50px;
+    }
+    .beach__description{
+        font-size:25px;
+    }
+    .attractive__place--container{
+        padding-top: 70px;
+    }
+    .back{
+        font-size: 25px;
+        left: 67px;
+        bottom: 120px;
+    }
+    .suluban{
+        left: 55px;
+        bottom: 150px;
+        font-size: 25px;
+    }
+    .beach__content{
+        height:100%;
+    }
+    .beach__img{
+        max-height: 600px;
+    }
+    .attractive__content{
+        height:100%;
+    }
+    .this__img{
+        max-height:600px;
+        object-fit:cover;
+    }
+    .beach__img{
+        max-height: 800px;
+        object-fit: cover;
+    }
+}
+@media(max-width:920px){
+    .rotate{
+        font-size: 12px;
+    }
+    .rotate__txt{
+        font-size: 15px;
+    }
+    .rotate__text{
+        bottom: 30px;
+    }
+}
+@media(max-width:844px){
+    .rotate__text{
+        bottom: 50px;
+    }
+    .rotate{
+        font-size: 10px;
+        font-weight:500;
+    }
+    .beach__main__title{
+        font-size:20px;
+    }
+    .beach__subtitle{
+        font-size:12px;
+    }
+    .inner__content{
+        padding:10px;
+    }
+    .beach__baron--content{
+        padding:10px;
+    }
+    .beach__trisik--content{
+        padding:10px;
+    }
+    .rotate__text{
+        font-size:15px;
+    }
+    .rotate__txt{
+        font-size: 15px;
+        bottom: 30px;
+    }
+    .main__content{
+        padding-top: 120px;
+    }
+    .beach__title{
+        font-size: 35px;
+    }
+    .beach{
+        font-size: 35px;
+    }
+}
+@media(max-width:800px){
+    .beach__pakis{
+        font-size:35px;
+    }
+    .beach__description{
+        font-size: 25px;
+    }
+    .suluban{
+        left: 30px;
+    }
+    .rotate__txt{
+        bottom: 20px;
+    }
+    .suluban{
+        font-size: 20px;
+        left: 60px;
+        bottom: 100px;
+    }
+    .beach__main__title{
+        font-size: 18px;
+    }
+    .footer__container{
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 80px;
+    }
+    .travel__title{
+        padding-top: 55px;
+    }
+    .inner__travel{
+        padding-bottom: 55px;
+    }
+}
+@media(max-width:790px){
+    .rotate__txt{
+        font-size:15px;
+    }
+    .rotate__text{
+        font-size:15px;
+        bottom:20px;
+    }
+    .back{
+        font-size: 20px;
+        left: 55px;
+    }
+}
+@media(max-width:700px){
+    .inner__beautiful--content{
+        display: flex;
+        flex-direction: column;
+    }
+    .place{
+        padding-bottom:20px;
+    }
+    .rotate{
+        bottom: 150px;
+        font-size: 25px;
+    }
+    .rotate__text{
+        bottom: 200px;
+        font-size: 25px;
+    }
+    .inner__content{
+        padding: 10px;
+    }
+    .rotate__txt{
+        font-size: 25px;
+        bottom: 290px;
+    }
+    .suluban{
+        font-size: 18px;
+        left: 50px;
+    }
+    .travel__title{
+        padding-top: 35px;
+        font-size: 28px;
+    }
+    .travel__subtitle{
+        font-size: 16px;
+    }
+    .rotate{
+        bottom: 150px;
+        font-size: 25px;
+    }
+}
+/* @media(max-width:745px){
+    .rotate{
+        font-size: 10px;
+        /* font-weight: 700; */
+        /* bottom: 5px; */
+@media(max-width:630px){
+    .back{
+        font-size: 18px;
+        left: 45px;
+    }
+    .suluban{
+        left: 40px;
+        font-size: 16px;
+    }
+    .travel__title{
+        font-size: 22px;
+    }
+    .travel__subtitle{
+        font-size: 14px;
+    }
+    .inner__travel{
+        padding-bottom: 35px;
+    }
+    .beach__title{
+        font-size: 28px;
+    }
+    .beach{
+        font-size: 28px;
+    }
+    .main__content{
+        padding-top: 90px;
+    }
+    .header__title{
+        padding-left: 20px;
+    }
+}
+@media(max-width:600px){
+    .title{
+        font-size:30px;
+    }
+    .back{
+        font-size: 20px;
+    }
+    .suluban{
+        font-size: 20px;
+    }
+    .paragraph{
+        font-size: 20px;
+    }
+    .inner__explore{
+        justify-content: flex-start;
+    }
+    .inner__image--container{
+        display: block;
+        width: 100%;
+    }
+    .inner__beautiful--content{
+        display: flex;
+        flex-direction: column;
+    }
+    .back{
+        left: 30px;
+        bottom: 150px;
+        
+    }
+    .rotate{
+        bottom: 20px;
+        font-size: 25px;
+    }
+    .rotate__txt{
+        bottom: 30px;
+        font-size: 25px;
+    }
+    .rotate__text{
+        bottom: 190px;
+        font-size: 25px;
+    }
+}
+@media(max-width:540px){
+    .inner__travel{
+        padding-bottom: 25px;
+    }
+    .travel__title{
+        font-size: 20px;
+        padding-top: 25px;
+    }
+    .footer__container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+@media(max-width:500px){
+    .information__container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .travel__title{
+        font-size:18px;
+    }
+    .travel__subtitle{
+        font-size:12px;
+    }
+    .footer__container{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+    }
+    .rotate{
+        bottom: 30px;
+        font-size: 20px;
+    }
+    .camille{
+        max-height:600px;
+    }
+    .unsplashe{
+        max-height:600px;
+    }
+    .beach__title{
+        font-size: 25px;
+    }
+    .beach{
+        font-size: 25px;
+    }
+    .suluban{
+        left: 20px;
+        bottom: 100px;
+    }
+    .beach__pakis{
+        font-size:25px;
+    }
+    .beach__description{
+        font-size:20px;
+    }
+    .rotate__text{
+        font-size: 20px;
+        bottom: 100px;
+    }
+    .rotate__txt{
+        font-size:20px;
+    }
+}
+@media(max-width:468px){
+    .inner__image--container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rotate__text{
+        font-size:15px;
+    }
+}
+@media(max-width:440px){
+    .back{
+        left: 20px;
+        bottom: 30px;
+        font-size: 15px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .suluban{
+        left: 25px;
+        bottom: 100px;
+        font-size:20px;
+    }
+}
+@media(max-width:420px){
+    .beach__pakis{
+        font-size: 30px;
+    }
+    .beach__description{
+        font-size:20px;
+    }
+    .suluban{
+        bottom: 50px;
+        font-size: 15px;
+        left: 20px;
+    }
+    .beautiful{
+        font-size: 25px;
+    }
+    .footer__container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer__date__container{
+        padding-top: 70px;
+    }
+    .travel__title{
+        font-size: 15px;
+        padding-top: 20px;
+    }
+}
+@media(max-width:400px){
+    .text__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .place__title{
+        font-size: 18px;
+    }
+    .beach__title{
+        font-size: 20px;
+    }
+    .beach{
+        font-size: 20px;
+    }
+    .inner__social{
+        gap: 18px;
+    }
+    .rotate{
+        font-size: 15px;
+    }
+    .main__content{
+        padding-top: 60px;
+    }
+}
+@media(max-width:390px){
+    .beach__pakis{
+        font-size: 25px;
+    }
+    .paragraph{
+        font-size:20px;
+    }
+    .rotate__text{
+        font-size:15px;
+        bottom:120px;
+    }
+    .rotate__txt{
+        font-size:15px;
+    }
+    .rotate{
+        font-size: 12px;
+    }
+}
+@media(max-width:310px){
+    .suluban{
+        bottom: 10px;
+        font-size:12px;
+    }
+    .rotate{
+        font-size: 12px;
+    }
+}

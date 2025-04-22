@@ -1,0 +1,669 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+}
+body{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "HEXP" 0;
+        background-color: #FFF;
+}
+img{
+    width:100%;
+    height:auto;
+}
+.second__container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.unsplashe{
+    padding-top: 100px;
+    transform: translateY(-30px);
+}
+.unsplashe:hover{
+    filter: brightness(1.1) contrast(1.1);
+    transform: scale(1.05);  /* Pievieno lielāku dinamismu ar skalēšanu */
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.inner__image--container{
+    display: flex;
+    gap: 13px;
+}
+.paragraph{
+    color: #959595;
+    font-family: "Readex Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom:32px;
+    line-height: normal;
+}
+.information__text--container{
+    padding-top: 146px;
+}
+.title{
+    padding-bottom:24px;
+    color: #202020;
+    font-family: "Readex Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.beach__img{
+    position: relative;
+    overflow: hidden;
+}
+.attractive__content{
+    position: relative;
+}
+.beach__content{
+   position: relative;
+}
+.inner__image{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.inner__image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+ .beach__content::after{
+    content: "";
+    position: absolute;
+    top: 67px; 
+    z-index: -1;
+    left: 0;
+    width: 100%;
+    height: 79%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+}  
+ .attractive__content::after{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), lightgray;
+} 
+.attractive__content:hover .inner__beach{
+    display: none;
+}
+.beach__content:hover .inner__beach{
+    display: none;
+}
+.attractive__place--container{
+    padding-top: 100px;
+}
+.attractive__img{
+    /* max-width:274px; */
+    padding-top: 67px;
+    transition:0.5s;
+}
+.beach__content:hover .attractive__img{
+    transform: rotateY(180deg);
+}
+.attractive__content:hover .this__img{
+    transform: rotateY(180deg);
+}
+.beach__container:hover .this__beach{
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+.beach__container:hover .back{
+    display: flex;
+}
+.this__img{
+    width:316px;
+    padding-top: 40px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.place{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.information__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding-left: 258px;
+    padding-right:259px;
+}
+.camille{
+    padding-top: 132px;
+}
+.camille:hover{
+    filter: brightness(1.1) contrast(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.inner__image--container img{
+    /* max-width: 200px; */
+    border-radius: 10px;
+}
+.beach__title{
+    color: #FFF;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.explore__btn{
+    border-radius: 8px;
+    background: #2B6F3E;
+    border: none;
+    outline: none;
+    padding: 10px 18px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+.explore__btn:hover{
+    background: #358d4d; 
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+.inner__text{
+    padding-bottom: 24px;
+}
+.inner__button{
+    padding-bottom: 29px;
+}
+.main__social--container{
+    display: flex;
+    justify-content: center;
+}
+.main__content{
+    padding-top: 290px;
+}
+.inner__social{
+    display: flex;
+    gap: 32px;
+    transition:0.2s;
+}
+.button__text--container{
+   display:flex;
+   justify-content: center;
+}
+.beach{
+    color: #FFF;
+    font-family: "Readex Pro";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.burger{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: lightslategray;
+    cursor: pointer;
+    border-radius: 50%;
+    display:none;
+    width:50px;
+    height:50px
+}
+.inner__social img:hover{
+    background-color: lightblue;
+    box-shadow:0px 0px 0px 5px rgba(229, 230, 234, 0.4);
+    border-radius:5px;
+}
+.burger span{
+    height: 2px;
+    background: black;
+    width:24px;
+    border-radius: 2px;
+}
+.inner__date__container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page--one{
+    background-image: url('./images/jumbotron-img\ 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 100vh;
+}
+.place__title{
+    color: #FFF;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.header__title{
+    padding-top: 32px;
+    padding-left: 132px;
+}
+.inner__main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner__header--container{
+    display: flex;
+    justify-content: space-between;
+}
+.inner__header--items{
+    display: flex;
+    padding-top: 39px;
+    padding-right: 130px;
+    gap: 32px;
+}
+.travel{
+    color: #FFF;
+    font-family: Pacifico;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.link{
+    color: #FFF;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.link:hover{
+    text-decoration: none;
+    transition: 0.2s;
+    color:rgba(249, 244, 244, 0.4);
+}
+.beach__pakis{
+    color: #FFF;
+    font-family: "Readex Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.beach__description{
+    color: #FFF;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+ .beach__text--content{
+    position: absolute;
+    left: 24px;
+    bottom: 28px;
+    z-index: 10;
+} 
+.beautiful{
+    color: #202020;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.beautiful__header{
+    padding-top: 100px;
+    padding-bottom:40px;
+}
+.this__beach{
+    /* max-width:295px; */
+    transition: transform 0.3s ease;
+}
+.inner__beautiful--content{
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap:33px;
+}
+.beach__main__title{
+    color: #202020;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.beach__subtitle{
+    color: #959595;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.beach__container{
+    position: relative;
+}
+ .beach__description--content{
+    background: #FFF;
+    border-radius: 10px;
+} 
+ .inner__content{
+     position: absolute;
+    bottom: 16px;
+    left: 19px;
+    right: 20px; 
+    background: #FFF;
+    padding: 11px 35px 11px 35px;
+    border-radius: 10px;
+ }
+.back{
+    display: none;
+    color: #FFF;
+    font-family: "Readex Pro";
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.9;
+    transform: translateX(-10%);
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    transition: opacity 1s ease;
+    opacity: 1;
+    text-align: center;
+}
+.suluban{
+    display: none;
+    color: #FFF;
+    font-family: "Readex Pro";
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.9;
+    transform: translateX(-10%);
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    transition: opacity 1s ease;
+    opacity: 1;
+    text-align: center;
+}
+.beach__container:hover .inner__content{
+    background: none;
+}
+.beach__container:hover .beach__main__title{
+    display: none;
+}
+.beach__container:hover .beach__subtitle{
+    display: none;
+}
+.rotate{
+    display: none;
+    color: rgba(2, 0, 9, 0.837);
+    font-family: "Readex Pro";
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.7;
+    transform: translate(0%, -20%);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    transition: opacity 1s ease;
+    opacity: 1;
+    text-align: center;
+}
+.rotate__txt{
+    display: none;
+    color: rgba(18, 18, 18, 0.655);
+    font-family: "Readex Pro";
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.7;
+    transform: translate(0%, -20%);
+    position: absolute;
+    bottom: 95px;
+    left: 10px;
+    transition: opacity 1s ease;
+    opacity: 1;
+    text-align: center;
+}
+.rotate__text{
+    display: none;
+    color: rgb(0, 0, 0);
+    font-family: "Readex Pro";
+    font-size: 17px;
+    font-style: normal;
+    line-height: 1.5;
+    transform: translate(0%, -20%);
+    position: absolute;
+    bottom: 90px;
+    left: 10px;
+    transition: opacity 1s ease;
+    opacity: 1;
+    text-align: center;
+}
+.beach__container:hover .rotate__txt{
+    display: flex;
+}
+.beach__container:hover .rotate__text{
+    display: flex;
+}
+.beach__container:hover .rotate{
+    display:flex;
+}
+.beach__container:hover .inner__beach{
+    display: none;
+}
+.beach__container:hover .inner__baron__beach{
+    background: none;
+}
+.attractive__content:hover .back{
+    opacity: 1;
+    display: flex;
+}
+ .beach__content:hover .back{
+   opacity: 1;
+   display: flex;
+}
+.attractive__content:hover .suluban{
+    opacity: 1;
+    display: flex;
+}
+ .beach__content:hover .suluban{
+   opacity: 1;
+   display: flex;
+}
+.beach__content:hover .front{
+    transform: rotateY(180deg);
+}
+.beach__container:hover .beach__baron--content{
+    background: none;
+}
+.beach__container:hover .beach__trisik--content{
+    background: none;
+}
+.beach__baron--content{
+    position: absolute;
+    bottom: 15px;
+    left: 19px;
+    right: 20px;
+    background: #FFF;
+    border-radius: 10px;
+    padding: 10px 35px 10px 35px;
+}
+.beach__trisik--content{
+    position: absolute;
+    bottom: 19px;
+    left: 19px;
+    right: 20px;
+    background: #FFF;
+    border-radius: 10px;
+    padding:12px 34px 11px 35px;
+}
+.footer__upper{
+    border-radius: 16px;
+    background: #2B6F3E;
+}
+.travel__title{
+    color: #FFF;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 16px;
+    padding-top: 85px;
+    line-height: normal;
+}
+.travel__subtitle{
+    color: #FFF;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.travel__btn{
+    color: #2B6F3E;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FFF;
+    border:none;
+    outline: none;
+    padding: 10px 18px;
+}
+.travel__btn:hover {
+    background: #2B6F3E;
+    color: #FFF;
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    transition: 0.3s;
+}
+.inner__travel{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding-top:24px;
+    padding-bottom:85px;
+}
+.footer__container{
+    padding-top: 101px;
+    padding-left:130px;
+    padding-right:130px;
+}
+.inner__date__container{
+    background: #2B6F3E;
+}
+.footer__date__container{
+    padding-top:100px;
+}
+.inner__date{
+    padding-top:32px;
+    padding-bottom:32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.date{
+    color: #FFF;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.date__txt{
+    color: #FFF;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/* Stils modal logam */
+.modal__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 9, 10, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 9999;
+}
+.modal__container.show {
+    visibility: visible;
+    opacity: 1;
+}
+.inner__modal__container {
+    background-color: #fef7fc;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.close__modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    background: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+}
+.close__modal:hover {
+    color: #f00;
+}
+.inner__text{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:15px;
+    flex-direction: column;
+}
