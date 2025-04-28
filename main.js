@@ -1,4 +1,4 @@
-// document.querySelector('#discover').scrollIntoView({ behavior: 'smooth' });
+
 
 $(document).ready(function(){
     $("#exploreBtn").click(function(e){
@@ -49,3 +49,13 @@ $(".link").click(function() {
     $(".inner__header--items").removeClass("active");
 });
 });
+
+$('#burger-menu').on('click', function() {
+    $('.inner__header--items').toggleClass('active');
+    
+    if ($('.inner__header--items').hasClass('active')) {
+      $('.burger').attr('src', 'icons8-close.svg'); 
+    } else {
+      $('.burger').attr('src', 'burger-icon.svg'); 
+    }
+  });
