@@ -90,10 +90,6 @@
     .paragraph{
         font-size: 25px;
     }
-    /* .explore__btn{
-        font-size: 20px;
-        padding: 20px 30px;
-    } */
     .inner__explore{
         display: flex;
         justify-content: center;
@@ -306,11 +302,6 @@
         font-size: 25px;
     }
 }
-/* @media(max-width:745px){
-    .rotate{
-        font-size: 10px;
-        /* font-weight: 700; */
-        /* bottom: 5px; */
 @media(max-width:630px){
     .back{
         font-size: 18px;
