@@ -36,7 +36,7 @@ img{
 }
 .unsplashe:hover{
     filter: brightness(1.1) contrast(1.1);
-    transform: scale(1.05);  /* Pievieno lielāku dinamismu ar skalēšanu */
+    transform: scale(1.05);  
     transition: 0.2s ease;
     cursor: pointer;
 }
