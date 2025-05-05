@@ -1,7 +1,31 @@
+@media(max-width:2064px){
+    .page--one{
+        height: 70%;
+        border-radius: 0px 0px 50px 50px;
+    }
+    .main__content{
+        padding:220px 0 120px;
+    }
+}
+@media(max-width:1465px){
+    .main__content{
+        padding-top:190px;
+    }
+}
+@media(max-width:1875px){
+    .page--one{
+        height:70%;
+        border-radius:0px 0px 50px 50px;
+    }
+    .main__content{
+        padding-bottom: 120px;
+    }
+}
 @media(max-width:1330px){
     .information__container{
-        padding-left: 50px;
-        padding-right: 50px;
+        /* padding-left: 50px;
+        padding-right: 50px; */
+        padding:0 50px;
     }
 }
 @media(max-width:1270px){
@@ -11,6 +35,9 @@
     .header__title{
         padding-left: 50px;
         padding-top: 20px;
+    }
+    .inner__social{
+        gap:25px;
     }
 }
 @media(max-width:1020px){
@@ -48,6 +75,7 @@
     }
     .page--one{
         height:60%;
+        border-radius: 0px 0px 30px 30px;
     }
     .burger__container{
         position: absolute;
@@ -77,7 +105,7 @@
         padding: 20px 30px;
     }
     .inner__social img{
-        width:50px;
+        width:40px;
     }
     .inner__text{
         padding-top: 120px;
@@ -126,7 +154,7 @@
         font-size: 22px;
     }
     .beach__subtitle{
-        font-size: 14px;
+        font-size: 25px;
     }
     .inner__content{
         padding: 12px;
@@ -219,7 +247,7 @@
         font-size:20px;
     }
     .beach__subtitle{
-        font-size:12px;
+        font-size:20px;
     }
     .inner__content{
         padding:10px;
@@ -266,7 +294,7 @@
         bottom: 100px;
     }
     .beach__main__title{
-        font-size: 18px;
+        font-size: 30px;
     }
     .footer__container{
         padding-left: 80px;
@@ -279,6 +307,7 @@
     .inner__travel{
         padding-bottom: 55px;
     }
+
 }
 @media(max-width:790px){
     .rotate__txt{
@@ -334,6 +363,9 @@
     .place__title{
         font-size: 50px;
     }
+    .inner__social{
+        gap:18px;
+    }
 }
 @media(max-width:630px){
     .back{
@@ -345,10 +377,10 @@
         font-size: 16px;
     }
     .travel__title{
-        font-size: 22px;
+        font-size: 30px;
     }
     .travel__subtitle{
-        font-size: 14px;
+        font-size: 18px;
     }
     .inner__travel{
         padding-bottom: 35px;
@@ -358,6 +390,9 @@
     }
     .beach{
         font-size: 28px;
+    }
+    .travel__btn{
+        font-size: 18px;
     }
     .main__content{
         padding-top: 90px;
@@ -401,8 +436,11 @@
     }
     .back{
         left: 30px;
-        bottom: 150px;
-        
+        bottom: 150px;  
+    }
+    .main__content{
+        padding-top: 60px;
+        padding-bottom: 50px;
     }
     .rotate{
         bottom: 20px;
@@ -440,10 +478,10 @@
         padding-bottom: 30px;
     }
     .travel__title{
-        font-size:18px;
+        font-size:28px;
     }
     .travel__subtitle{
-        font-size:12px;
+        font-size:18px;
     }
     .footer__container{
         padding-left: 30px;
@@ -471,10 +509,10 @@
         bottom: 100px;
     }
     .beach__pakis{
-        font-size:25px;
+        font-size:35px;
     }
     .beach__description{
-        font-size:20px;
+        font-size:30px;
     }
     .inner__social img{
         width:30px;
@@ -512,6 +550,12 @@
     }
     .rotate__text{
         font-size:15px;
+    }
+    .beach__main__title{
+        font-size:25px;
+    }
+    .beach__subtitle{
+        font-size:18px;
     }
     .place__title{
         font-size: 30px;
@@ -564,7 +608,7 @@
         padding-top: 70px;
     }
     .travel__title{
-        font-size: 15px;
+        font-size: 26px;
         padding-top: 20px;
     }
     .beach__title{
@@ -585,13 +629,13 @@
         flex-direction: column;
     }
     .place__title{
-        font-size: 18px;
+        font-size: 30px;
     }
     .beach__title{
-        font-size: 20px;
+        font-size: 25px;
     }
     .beach{
-        font-size: 20px;
+        font-size: 25px;
     }
     .inner__social{
         gap: 18px;
@@ -619,6 +663,12 @@
     }
     .rotate{
         font-size: 12px;
+    }
+    .travel__title{
+        font-size: 22px;
+    }
+    .travel__subtitle{
+        font-size:16px;
     }
 }
 @media(max-width:320px){
