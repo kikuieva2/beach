@@ -33,7 +33,8 @@ It also offers the opportunity to explore and view stunning beach locations perf
 
 5.**Optimized Images**: Used compressed `.png` files to ensure faster loading times.
 
-✍️**What I did**:
+✍️ **What I did**: 
+
 - Integrated responsive behavior using media queries
 
 - Optimized images for faster performance
