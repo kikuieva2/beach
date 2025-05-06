@@ -16,6 +16,11 @@ It also offers the opportunity to explore and view stunning beach locations perf
 🌐 **Live Demo**: 
 🔗 https://kikuieva2.github.io/beach/
 
+🚀 **How to Use**:
+1. Open the  https://kikuieva2.github.io/beach/.
+2. Browse featured beaches and hover over images for more info.
+3. Hover on images to look these more near.
+
 🛠️ **Technologies Used**:
 
 1.**HTML**: Structured layout of the webpage.
