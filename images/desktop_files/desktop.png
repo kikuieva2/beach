@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0034)https://kikuieva2.github.io/beach/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beach Explorer – Discover Your Ideal Beach</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./media.css">
-    <link rel="icon" href="wave.png" type="image/png">
+    <title>Document</title>
+    <link rel="stylesheet" href="./desktop_files/styles.css">
+    <link rel="stylesheet" href="./desktop_files/media.css">
+    <link rel="icon" href="https://kikuieva2.github.io/beach/wave.png" type="image/png">
 </head>
 <body>
     <div class="page--one">
@@ -24,10 +24,10 @@
                     </div>
                     <div class="header__items">
                         <nav class="inner__header--items active">
-                            <a href="#home" class="link home">Home</a>
-                            <a href="#about" class="link home">About</a>
-                            <a href="#discover" class="link">Discover</a>
-                            <a href="#explore" class="link">Place</a>
+                            <a href="https://kikuieva2.github.io/beach/#home" class="link home">Home</a>
+                            <a href="https://kikuieva2.github.io/beach/#about" class="link home">About</a>
+                            <a href="https://kikuieva2.github.io/beach/#discover" class="link">Discover</a>
+                            <a href="https://kikuieva2.github.io/beach/#explore" class="link">Place</a>
                         </nav>
                     </div> 
                 </div>
@@ -42,14 +42,14 @@
                                 </div>
                                     <div class="button__text--container">
                                         <div class="inner__button">
-                                            <a href="#discover" class="explore__btn" id="exploreBtn">Explore</a>
+                                            <a href="https://kikuieva2.github.io/beach/#discover" class="explore__btn" id="exploreBtn">Explore</a>
                                         </div>
                                     </div>
                                         <div class="main__social--container">
                                             <div class="inner__social">
-                                                <img src="./images/Group.svg" alt="twiter icon" class="twitter">
-                                                <img src="./images/bx_bxl-facebook-square.svg" alt="facebook icon" class="facebook">
-                                                <img src="./images/Group(1).svg" alt="instagram icon" class="instagram">
+                                                <img src="./desktop_files/Group.svg" alt="" class="twitter">
+                                                <img src="./desktop_files/bx_bxl-facebook-square.svg" alt="" class="facebook">
+                                                <img src="./desktop_files/Group (1).svg" alt="" class="instagram">
                                             </div>
                                         </div>
                                     </div> 
@@ -57,19 +57,19 @@
                             </div>
                         </main>
                     </div>
-                <div class="second__container">
+                <div class="second__container" id="about">
                     <div class="beach__all__content">
                         <div class="information__container">
                             <div class="inner__image--container">
-                            <img src="./images/camille-minouflet-ggkrG9EfxXM-unsplash 1-2.png" alt="camille beach" class="camille">
-                            <img src="./images/camille-minouflet-ggkrG9EfxXM-unsplash-1.png.png" alt="unspalshe beach" class="unsplashe">
+                            <img src="./desktop_files/camille-minouflet-ggkrG9EfxXM-unsplash 1.png" alt="" class="camille">
+                            <img src="./desktop_files/unsplash_4UEA3GuXwMw 1.png" alt="" class="unsplashe">
                         </div>
                             <div class="information__text--container"> 
                                 <div class="inner__text__container">
                                     <p class="title">More information <br> about the best beachs</p>
                                     <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, otestate. Quae omnia in nostra sententia, pursuit</p>
                                 </div> 
-                        <a href="#explore" class="explore__btn" id="exploreplace">Explore now</a>
+                        <a href="https://kikuieva2.github.io/beach/#explore" class="explore__btn" id="exploreplace">Explore now</a>
                     </div>
                 </div> 
             </div>
@@ -81,7 +81,7 @@
                         <div class="inner__image">
                             <div class="beach__content">
                                 <div class="beach__img">
-                                    <img src="./images/unsplash_zR8ekoHsoPo.png" alt="Pakis beach image" class="attractive__img">
+                                    <img src="./desktop_files/unsplash_zR8ekoHsoPo.png" alt="" class="attractive__img">
                                         <div class="beach__text--content">
                                             <div class="inner__beach">
                                                     <p class="beach__pakis">Pakis Beach</p>
@@ -92,7 +92,7 @@
                                         </div>
                                     </div>
                             <div class="attractive__content">
-                                <img src="./images/unsplash_c-UJQKs8fFU.png" alt="Suluban Beach" class="this__img">
+                                <img src="./desktop_files/unsplash_c-UJQKs8fFU.png" alt="" class="this__img">
                                     <div class="beach__text--content">
                                         <div class="inner__beach">
                                             <p class="beach__pakis">Suluban Beach</p>
@@ -104,7 +104,7 @@
                                 </div>
                             <div class="beach__content">
                                 <div class="beach__img">
-                                    <img src="./images/unsplash_-o4PpHE9uG0.png" alt="Karimun beach" class="attractive__img">
+                                    <img src="./desktop_files/unsplash_-o4PpHE9uG0.png" alt="" class="attractive__img">
                                         <div class="beach__text--content">
                                             <div class="inner__beach">
                                             <p class="beach__pakis">Karimun Java</p>
@@ -123,7 +123,7 @@
                 <div class="beautiful__image--content">
                     <div class="inner__beautiful--content">
                         <div class="beach__container">
-                            <div class="front"><img src="./images/jcob-nasyr-67sVPjK6Q7I-unsplash.png" alt="" class="this__beach"></div>
+                            <div class="front"><img src="./desktop_files/jcob-nasyr-67sVPjK6Q7I-unsplash.png" alt="" class="this__beach"></div>
                             <div class="beach__description--content">
                                 <div class="inner__content">
                                     <p class="beach__main__title">Drini Beach</p>
@@ -133,7 +133,7 @@
                             </div>
                         </div>
                         <div class="beach__container">
-                        <img src="./images/cristofer-maximilian-vWxE6Ejr9j0-unsplash.png" alt="Baron beach" class="this__beach">
+                        <img src="./desktop_files/cristofer-maximilian-vWxE6Ejr9j0-unsplash.png" alt="" class="this__beach">
                             <div class="beach__baron--content">
                                 <div class="inner__baron__beach">
                                     <p class="beach__main__title">Baron Beach</p>
@@ -143,7 +143,7 @@
                             </div>
                         </div>
                         <div class="beach__container">
-                            <img src="./images/lalo-hernandez-Amo081zdJsI-unsplash.png" alt="Trisik beach" class="this__beach">
+                            <img src="./desktop_files/lalo-hernandez-Amo081zdJsI-unsplash.png" alt="" class="this__beach">
                             <div class="beach__trisik--content">
                                 <div class="inner__baron__beach">
                                     <p class="beach__main__title">Trisik Beach</p>
@@ -175,7 +175,7 @@
             </div>
         </div>
     </div>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="main.js"></script>
-    </body>
-</html>
+        <script src="./desktop_files/jquery-3.6.0.min.js.lejupielādēt"></script>
+        <script src="./desktop_files/main.js.lejupielādēt"></script>
+    
+</body></html>
