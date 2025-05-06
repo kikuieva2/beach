@@ -35,9 +35,12 @@ It also offers the opportunity to explore and view stunning beach locations perf
 
 ✍️**What I did**:
 - Integrated responsive behavior using media queries
-- Optimized images for fast performance.
-- Add jquery to create a modal functionality.
-- Add hover effects on images.
+
+- Optimized images for faster performance
+
+- Implemented a modal popup using jQuery
+
+- Added interactive hover effects on images
 
 ✅ **Validated with W3C HTML Validator** – no critical errors or warnings.
 
