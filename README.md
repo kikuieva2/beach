@@ -19,7 +19,7 @@ It also offers the opportunity to explore and view stunning beach locations perf
 🚀 **How to Use**:
 1. Open the  https://kikuieva2.github.io/beach/.
 2. Browse featured beaches and hover over images for more info.
-3. Hover on images to look these more near.
+3. Hover over the images to view them in more detail
 
 🛠️ **Technologies Used**:
 
@@ -32,6 +32,12 @@ It also offers the opportunity to explore and view stunning beach locations perf
 4.**JavaScript**: Incorporated jQuery library for interactive elements.
 
 5.**Optimized Images**: Used compressed `.png` files to ensure faster loading times.
+
+✍️**What I did**:
+- Integrated responsive behavior using media queries
+- Optimized images for fast performance.
+- Add jquery to create a modal functionality.
+- Add hover effects on images.
 
 ✅ **Validated with W3C HTML Validator** – no critical errors or warnings.
 
