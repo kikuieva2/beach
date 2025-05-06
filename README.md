@@ -26,7 +26,7 @@ It also offers the opportunity to explore and view stunning beach locations perf
 
 4.**JavaScript**: Incorporated jQuery library for interactive elements.
 
-5. **Optimized Images**: Used compressed `.png` files to ensure faster loading times.
+5.**Optimized Images**: Used compressed `.png` files to ensure faster loading times.
 
 ✅ **Validated with W3C HTML Validator** – no critical errors or warnings.
 
